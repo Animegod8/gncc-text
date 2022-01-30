@@ -1,6 +1,7 @@
 # gncc-text
 
 A small compact text editor for linux writen in java and python
+this was made to be a convenence thing for linux/unix based systems.
 
 
 # install instructions!!
@@ -18,3 +19,6 @@ git clone "repository link"
 # can you install this on windows/mac
 
 yes you can, but at that point just use notepad/notepad++/whatever you use
+
+
+Mac: I dont know, if you can install this , just use VS chromium/vs code/whatever you use
