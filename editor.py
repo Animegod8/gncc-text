@@ -13,7 +13,7 @@ def newLine():
 # code to inisialize on startup bla bla bla
 inText = 0
 print('chose witch mode to boot into(editor(miniTerm comming later)')
-print('NOTICE: ITS A TERMINAL TECH DEMO')
+print('NOTICE: ITS A PRE RELSESE NOTHING IS FINAL')
 bootMode = input()
 if bootMode == 'editor':
   print('welcome to the editor!')
