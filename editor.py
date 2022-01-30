@@ -8,48 +8,15 @@ def newLine():
   else:
     newLine()
 
-# Extra
-"""
-def miniTerm():
-  def termNL():
-    command = input()
-    if command == '.test':
-      print('hello world!')
-      termNL()
-    elif command == '.exit':
-      print('procces compleate')
-    else:
-      print('command not found')
-      termNL()
-
-
-
-
-
-  command = input()
-
-
-  if command == '.exit':
-    print('procces compleate')
-
-  elif command == '.test':
-    print('hello world!')
-    termNL()
-  else:
-      print('command not found')
-      termNL()
-"""
+#
 
 # code to inisialize on startup bla bla bla
 inText = 0
 print('chose witch mode to boot into(editor(miniTerm comming later)')
-print('NOTICE: ITS A TERMINAL TECH DEMO')
+print('NOTICE: IN PRE RELESE NOTHING IS FINAL')
 bootMode = input()
 if bootMode == 'editor':
   print('welcome to the editor!')
   print('just type some lines and your writing some code!')
   inText = 1
   newLine()
-#elif bootMode == 'term':
- # print('booting into miniTerm')
-  #miniTerm()
