@@ -1,7 +1,9 @@
 # gncc-text
+
 A small compact text editor for linux writen in java and python
 
-#install instructions!!
+
+# install instructions!!
 
 From the releses section download the install.sh
 witch will create a directory for the project and get dependencies and inistialise the editor
