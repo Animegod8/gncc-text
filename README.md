@@ -1,6 +1,7 @@
 # gncc-text
 
-A small compact text editor for linux writen in java and python
+A small compact text editor for linux writen in java and python(with some shell scripting to pull it all together)
+
 this was made to be a convenence thing for linux/unix based systems.
 
 
