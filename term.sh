@@ -1,6 +1,5 @@
 install()
 {
-
     cd terminal
     javac compile.java
     javac terminal.java
@@ -9,10 +8,12 @@ install()
 
 run()
 {
+    cd terminal
     java terminal
 }
 
 compile()
 {
+    cd terminal
     java compile
 }
