@@ -12,8 +12,9 @@ public class terminal{
   String command = myObj.nextLine();
 
   switch(command){
-    case "test":
-      System.out.println("Hello world!");
+    case "rd":
+      System.out.println("Chose the file to baserun");
+      terminal.
       terminal.newLine();
     break;
     case "writeFile":
