@@ -12,10 +12,8 @@ public class terminal{
   String command = myObj.nextLine();
 
   switch(command){
-    case "rd":
-      System.out.println("Chose the file to baserun");
-      terminal.
-      terminal.newLine();
+    case "su":
+      sudoTerm.commands();
     break;
     case "writeFile":
       System.out.println("Use the file write class");
@@ -27,4 +25,17 @@ public class terminal{
     terminal.newLine();
   }
 }
+}
+
+public class sudoTerm extends terminal {
+
+  public static void commands(){
+    Scanner mySC = new Scanner(System.in);
+    Striing sudocomand = mySC.nextLine();
+    switch(sudocomand){
+      case "SetPass":
+      System.out.println("what is your password")
+      break;
+    }
+  }
 }
